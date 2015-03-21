@@ -93,6 +93,7 @@ namespace System.Web.Routing
 		}
 
 		public bool RouteExistingFiles { get; set; }
+		public bool AppendTrailingSlash { get; set; }
 
 		public void Add (string name, RouteBase item)
 		{
